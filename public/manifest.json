@@ -1,0 +1,22 @@
+{
+  "name": "Sanjana Vadluri",
+  "short_name": "Sanjana",
+  "theme_color": "#2d1950",
+  "background_color": "#2d1950",
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
