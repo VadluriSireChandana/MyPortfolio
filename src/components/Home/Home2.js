@@ -15,21 +15,23 @@ function Home2() {
                 LET ME <span className="purple">INTRODUCE</span> MYSELF
               </h1>
               <p className="home-about-body">
-                Hey there! I’m <b className="purple">Sanjana</b> 👩‍💻 — a curious coder with a love for turning ideas into web magic.
-                <br />
-                <br />
+                Hey there! I’m <b className="purple">Chandana</b> 👩‍💻 — a curious coder with a love for turning ideas
+                into web magic.
+                <br/>
+                <br/>
                 It all started with a spark — now I build things that live on the internet 🚀
-                <br />
-                <br />
+                <br/>
+                <br/>
                 I enjoy blending <b className="purple">logic with creativity</b>, diving into{" "}
                 <b className="purple">JavaScript adventures</b>, and bringing products to life using tools like{" "}
-                <b className="purple">React</b>, <b className="purple">Spring</b> and <b className="purple">Node.js</b>.
-                <br />
-                <br />
+                <b className="purple">React</b>, <b className="purple">ASP.NET</b>, <b
+                  className="purple">Angular</b> and <b className="purple">Node.js</b>.
+                <br/>
+                <br/>
                 When I’m not coding, you’ll find me exploring <b className="purple">cloud tech ☁️</b>, solving puzzles,
                 or secretly rewriting my to-do list app for the 100th time 😅.
-                <br />
-                <br />
+                <br/>
+                <br/>
                 <i>
                   <b className="purple">"Byte into the future with me 💻✨"</b>
                 </i>
@@ -50,7 +52,7 @@ function Home2() {
               <ul className="home-about-social-links">
                 <li className="social-icons">
                   <a
-                      href="https://github.com/Sanjana-Vadluri"
+                      href="https://github.com/VadluriSireChandana"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"
@@ -60,7 +62,7 @@ function Home2() {
                 </li>
                 <li className="social-icons">
                   <a
-                      href="https://www.linkedin.com/in/sanjana-vadluri-b79256259/"
+                      href="https://www.linkedin.com/in/sire-chandana-vadluri-07782422a/"
                       target="_blank"
                       rel="noreferrer"
                       className="icon-colour  home-social-icons"

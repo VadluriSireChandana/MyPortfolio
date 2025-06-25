@@ -4,7 +4,7 @@ import Github from "./Github";
 import Techstack from "./Techstack";
 import Achievements from "./Achievements";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/myPhoto.JPG";
+import laptopImg from "../../Assets/girl.png";
 import ReactGA from "react-ga";
 
 function About() {
@@ -38,7 +38,7 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" height="400px" width="250px"/>
+            <img src={laptopImg} alt="about" className="img-fluid" height="500px" width="300px"/>
           </Col>
         </Row>
 

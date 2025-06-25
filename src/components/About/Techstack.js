@@ -2,29 +2,23 @@ import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 
 // Languages
-import { SiC } from 'react-icons/si';
-import { DiJava, DiPython, DiJavascript1, DiDatabase } from 'react-icons/di';
+import { SiC, SiCsharp } from 'react-icons/si';
+import { DiPython, DiJavascript1 } from 'react-icons/di';
+import { DiDatabase } from 'react-icons/di';
 
 // Frontend & Backend
 import { DiReact, DiNodejs } from 'react-icons/di';
-import { SiHtml5, SiCss3, SiSpring } from 'react-icons/si';
-
-// Databases
-import { SiMongodb, SiMysql } from 'react-icons/si';
+import { SiAngular, SiHtml5, SiCss3, SiDotnet } from 'react-icons/si';
 
 // Tools
 import { DiGit } from 'react-icons/di';
-import { SiGithub, SiPostman } from 'react-icons/si';
+import { SiGithub, SiPostman, SiGooglecloud } from 'react-icons/si';
 
 // OS
 import { SiWindows, SiLinux } from 'react-icons/si';
 
 // IDEs
-import {
-    SiVisualstudiocode,
-    SiEclipseide,
-    SiIntellijidea,
-} from 'react-icons/si';
+import { SiVisualstudiocode } from 'react-icons/si';
 
 function Techstack() {
     return (
@@ -36,9 +30,9 @@ function Techstack() {
                     <SiC />
                     <div className="tech-label">C</div>
                 </Col>
-                <Col xs={4} md={2} className="tech-icons" title="Java">
-                    <DiJava />
-                    <div className="tech-label">Java</div>
+                <Col xs={4} md={2} className="tech-icons" title="C#">
+                    <SiCsharp />
+                    <div className="tech-label">C#</div>
                 </Col>
                 <Col xs={4} md={2} className="tech-icons" title="Python">
                     <DiPython />
@@ -54,8 +48,8 @@ function Techstack() {
                 </Col>
             </Row>
 
-            {/* ─────────── Frontend & Backend ─────────── */}
-            <h2 className="skill-category-title">Frontend & Backend</h2>
+            {/* ─────────── Frameworks & Technologies ─────────── */}
+            <h2 className="skill-category-title">Frameworks & Technologies</h2>
             <Row style={{ justifyContent: 'center', paddingBottom: '20px' }}>
                 <Col xs={4} md={2} className="tech-icons" title="HTML5">
                     <SiHtml5 />
@@ -69,31 +63,22 @@ function Techstack() {
                     <DiReact />
                     <div className="tech-label">React</div>
                 </Col>
+                <Col xs={4} md={2} className="tech-icons" title="Angular">
+                    <SiAngular />
+                    <div className="tech-label">Angular</div>
+                </Col>
                 <Col xs={4} md={2} className="tech-icons" title="Node.js">
                     <DiNodejs />
                     <div className="tech-label">Node.js</div>
                 </Col>
-                <Col xs={4} md={2} className="tech-icons" title="Spring Boot">
-                    <SiSpring />
-                    <div className="tech-label">Spring Boot</div>
+                <Col xs={4} md={2} className="tech-icons" title="ASP.NET Core">
+                    <SiDotnet />
+                    <div className="tech-label">ASP.NET Core</div>
                 </Col>
             </Row>
 
-            {/* ─────────── Databases ─────────── */}
-            <h2 className="skill-category-title">Databases</h2>
-            <Row style={{ justifyContent: 'center', paddingBottom: '20px' }}>
-                <Col xs={4} md={2} className="tech-icons" title="MongoDB">
-                    <SiMongodb />
-                    <div className="tech-label">MongoDB</div>
-                </Col>
-                <Col xs={4} md={2} className="tech-icons" title="MySQL">
-                    <SiMysql />
-                    <div className="tech-label">MySQL</div>
-                </Col>
-            </Row>
-
-            {/* ─────────── Tools ─────────── */}
-            <h2 className="skill-category-title">Tools</h2>
+            {/* ─────────── Tools & Platforms ─────────── */}
+            <h2 className="skill-category-title">Tools & Platforms</h2>
             <Row style={{ justifyContent: 'center', paddingBottom: '20px' }}>
                 <Col xs={4} md={2} className="tech-icons" title="Git">
                     <DiGit />
@@ -107,37 +92,12 @@ function Techstack() {
                     <SiPostman />
                     <div className="tech-label">Postman</div>
                 </Col>
-            </Row>
-
-            {/* ─────────── Operating Systems ─────────── */}
-            <h2 className="skill-category-title">Operating Systems</h2>
-            <Row style={{ justifyContent: 'center', paddingBottom: '20px' }}>
-                <Col xs={4} md={2} className="tech-icons" title="Windows">
-                    <SiWindows />
-                    <div className="tech-label">Windows</div>
-                </Col>
-                <Col xs={4} md={2} className="tech-icons" title="Linux">
-                    <SiLinux />
-                    <div className="tech-label">Linux</div>
+                <Col xs={4} md={2} className="tech-icons" title="Google Cloud">
+                    <SiGooglecloud />
+                    <div className="tech-label">Google Cloud</div>
                 </Col>
             </Row>
 
-            {/* ─────────── IDEs ─────────── */}
-            <h2 className="skill-category-title">IDEs</h2>
-            <Row style={{ justifyContent: 'center', paddingBottom: '50px' }}>
-                <Col xs={4} md={2} className="tech-icons" title="Eclipse">
-                    <SiEclipseide />
-                    <div className="tech-label">Eclipse</div>
-                </Col>
-                <Col xs={4} md={2} className="tech-icons" title="IntelliJ">
-                    <SiIntellijidea />
-                    <div className="tech-label">IntelliJ</div>
-                </Col>
-                <Col xs={4} md={2} className="tech-icons" title="VS Code">
-                    <SiVisualstudiocode />
-                    <div className="tech-label">VS Code</div>
-                </Col>
-            </Row>
         </>
     );
 }

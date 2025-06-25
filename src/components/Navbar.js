@@ -47,7 +47,7 @@ function NavBar() {
               fontSize: '28px',
             }}
           >
-            Sanjana Vadluri
+            Sire Chandana
           </p>
         </Navbar.Brand>
         <Navbar.Toggle
@@ -113,7 +113,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/Sanjana-Vadluri"
+                href="https://github.com/VadluriSireChandana/MyPortfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >

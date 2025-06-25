@@ -4,7 +4,9 @@ import { FaCalendarAlt } from "react-icons/fa";
 
 function ExperienceCard({ logo, role, company, date, description }) {
     return (
-        <Card className="experience-card">
+        <Card className="experience-card"
+            style={{ margin: "20px" }}
+        >
             <Card.Body>
                 <Row className="align-items-center experience-header gx-3">
                     {/* Left: logo */}

@@ -17,20 +17,20 @@ function Footer() {
           <Col md="4" className="footer-copywright">
             <h3>
               <AiOutlineMail style={{ marginRight: '8px' }} />
-              sanjanavrs23@gmail.com
+              vasich369@gmail.com
             </h3>
           </Col>
           <Col md="4" className="footer-copywright">
             <h3>
               <AiOutlinePhone style={{ marginRight: '8px' }} />
-              +91 9381268205
+              +91 9866634670
             </h3>
           </Col>
           <Col md="4" className="footer-body">
             <ul className="footer-icons">
               <li className="social-icons">
                 <a
-                    href="https://github.com/Sanjana-Vadluri"
+                    href="https://github.com/VadluriSireChandana"
                     style={{ color: 'white' }}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -40,7 +40,7 @@ function Footer() {
               </li>
               <li className="social-icons">
                 <a
-                    href="https://www.linkedin.com/in/sanjana-vadluri-b79256259/"
+                    href="https://www.linkedin.com/in/sire-chandana-vadluri-07782422a/"
                     style={{ color: 'white' }}
                     target="_blank"
                     rel="noopener noreferrer"

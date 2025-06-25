@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Button } from "react-bootstrap";
 import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page, pdfjs } from "react-pdf/dist/esm/entry.webpack";
-import pdf from "../../Assets/SanjanaVadluri_SWE.pdf";
+import { Document, Page, pdfjs } from 'react-pdf';
+import pdf from "../../Assets/SireChandana.pdf";
 import ReactGA from "react-ga";
 
 // Set up PDF worker
@@ -26,7 +26,7 @@ function Resume() {
             <Container>
                 {/* Download Button */}
                 <Row className="justify-content-center mt-5 mb-3">
-                    <Button variant="primary" href="https://drive.google.com/file/d/1F171YQZQQd9c00kxCSZaD_wdZFgw9NWT/view?usp=sharing" target="_blank">
+                    <Button variant="primary" href="https://drive.google.com/file/d/1iSCC2Tzk-7YDCXtp4J-yorMVHCoYD_X_/view?usp=sharing" target="_blank">
                         <AiOutlineDownload /> &nbsp;Download Resume
                     </Button>
                 </Row>

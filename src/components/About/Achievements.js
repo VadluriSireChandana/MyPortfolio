@@ -5,10 +5,9 @@ import {ImPointRight} from "react-icons/im";
 
 function Achievements() {
     const achievements = [
-        "Finalist in Flipkart Runway, placing among top 1% of participants.",
-        "Amazon Future Engineer Scholar – selected as one of the top 400 out of 8,000 applicants.",
-        "Epam Women India Scholar – ranked in the top 10% and received scholarship plus mentorship.",
-        "Solved 500+ coding questions across platforms including LeetCode and CodeChef."
+        "Runner-up at the JPMorgan Code for Good Hackathon 2022, selected among top 200 out of 50,000 participants.",
+        "Winner of the TechnoBoom 2022 Coding Contest at GNITS, competing against 200+ students.",
+        "Received a Merit Certification at the Megathon Coding Contest 2022."
     ];
 
     return (

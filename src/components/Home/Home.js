@@ -32,7 +32,7 @@ function Home() {
 
               <h1 className="heading-name">
                 <bold>I'm</bold>
-                <strong style={{color:'purple', fontFamily:'cursive'}}> SANJANA VADLURI</strong>
+                <strong style={{color:'purple', fontFamily:'cursive'}}> SIRE CHANDANA VADLURI</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
