@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{textAlign: 'justify'}}>
             Hi Everyone, I am <strong>Sire Chandana Vadluri </strong>
             from <strong> Hyderabad, India.</strong>
-            <br />I’m currently pursuing my <bold>B.Tech</bold> in <bold>Computer Science and Technology at GNITS</bold>.
+            <br />I have pursued my <strong> B.Tech</strong> in <strong>Computer Science and Technology at GNITS</strong>.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
